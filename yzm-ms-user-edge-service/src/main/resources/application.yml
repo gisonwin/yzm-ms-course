@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    username: root
+    password:
+    url: jdbc:mysql://localhost:3306/yzm_user
+    driver-class-name: com.mysql.jdbc.Driver
+  application:
+    name: user-edge-service
+
+user.service.port: 9000
+user.service.ip: 127.0.0.1
+
+score.service.port: 9090
+score.service.ip: 127.0.0.1
+server:
+  port: 9100

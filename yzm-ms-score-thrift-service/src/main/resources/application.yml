@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    username: root
+    password:
+    url: jdbc:mysql://localhost:3306/yzm_score
+    driver-class-name: com.mysql.jdbc.Driver
+
+
+service.port : 9090
+mapper:
+  identity: MYSQL
+  not-empty: true
+logging:
+  level:
+    com.yzmedu.microservice.yzmmsscorethriftservice.mapper : debug
